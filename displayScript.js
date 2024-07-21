@@ -1,9 +1,9 @@
 // displayScript.js
 document.addEventListener('DOMContentLoaded', function() {
     // Retrieve data from local storage
+    
     let userData = JSON.parse(localStorage.getItem('userData'));
 
-    // Display data in table
     if (userData) {
         let userDataElement = document.getElementById('userData');
         userDataElement.innerHTML = `
